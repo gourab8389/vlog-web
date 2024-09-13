@@ -15,7 +15,7 @@ export function Hero() {
       <div className="relative flex flex-col w-full py-5 mx-auto md:flex-row md:items-center md:justify-between">
         <div className="flex flex-row items-center justify-between text-sm lg:justify-start">
           <Link href="/" className="flex items-center gap-2">
-            <Image src={Logo} className="size-30" alt="Logo" />
+            <Image src={Logo} className="size-20" alt="Logo" />
           </Link>
           <div className="md:hidden">
             <ThemeToggle />
@@ -115,13 +115,6 @@ export function Hero() {
                 </filter>
               </defs>
             </svg>
-
-            <Image
-              src={HeroImage}
-              alt="Hero image"
-              priority
-              className="relative object-cover w-full border rounded-lg shadow-2xl lg:rounded-2xl"
-            />
           </div>
         </div>
       </section>
